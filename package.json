@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "serve": "http-server dist -p 3000"
   },
-  "homepage": "https://YOUR_USERNAME.github.io/digilift-africa",
+  "homepage": "https://friezewandabwa.github.io/learningcentres",
   "keywords": [
     "digital-literacy",
     "africa",
