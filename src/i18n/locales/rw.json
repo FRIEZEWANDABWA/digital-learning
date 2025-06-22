@@ -1,0 +1,49 @@
+{
+  "nav": {
+    "home": "Ahabanza",
+    "about": "Ibijyanye n'Ibigo",
+    "countries": "Ibihugu",
+    "curriculum": "Integanyanyigisho",
+    "stories": "Inkuru",
+    "data": "Amakuru y'Afurika",
+    "getInvolved": "Kwitabira",
+    "contact": "Twandikire"
+  },
+  "hero": {
+    "title": "Gushimangira Afurika binyuze mu Ubumenyi bw'Ikoranabuhanga",
+    "subtitle": "Ibigo by'Ikoranabuhanga Bigendanwa bikoresha Ingufu z'Iziko",
+    "description": "Kuzana ubumenyi bw'ikoranabuhanga, ubwiyunge bw'ubuzima, n'amakuru yemejwe mu miryango idafite serivisi zihagije muri Afurika yose binyuze mu bigo by'ubwiyunge bishya.",
+    "cta": "Reba Ingaruka Zacu",
+    "learnMore": "Menya Byinshi"
+  },
+  "stats": {
+    "hubs": "Ibigo Bikora",
+    "students": "Abanyeshuri Batojwe",
+    "countries": "Ibihugu Byagezweho",
+    "communities": "Imitwe Yahawe Serivisi"
+  },
+  "about": {
+    "title": "Ibigo by'Ikoranabuhanga Bigendanwa Bishya",
+    "subtitle": "Ibikoresho by'ubucuruzi bikoresha ingufu z'iziko bihinduwe ibigo by'ikoranabuhanga",
+    "description": "Uburyo bwacu bushya buzana ikoranabuhanga rigezweho mu miryango ya kure binyuze mu bidukikije by'ubwiyunge bigendanwa, birambye, kandi bihuza n'umuco."
+  },
+  "countries": {
+    "title": "Uko Tubayeho muri Afurika",
+    "subtitle": "Gahunda zihuza n'ibikenewe by'uko buri muryango"
+  },
+  "curriculum": {
+    "title": "Amahugurwa Yuzuye y'Ubumenyi bw'Ikoranabuhanga",
+    "subtitle": "Kuva ku bumenyi bw'ibanze kugeza ku bumenyi bw'ikoranabuhanga bwo hejuru"
+  },
+  "stories": {
+    "title": "Guhindura Ubuzima, Inkuru Imwe mu Gihe",
+    "subtitle": "Ingaruka nyazo ziva ku bantu nyabo"
+  },
+  "footer": {
+    "description": "Gushimangira imitwe y'Abanyafurika binyuze mu burezi bw'ikoranabuhanga bushya n'ibisubizo by'ikoranabuhanga birambye.",
+    "quickLinks": "Ihuza Ryihuse",
+    "contact": "Amakuru y'Itumanaho",
+    "social": "Dukurikire",
+    "copyright": "© 2024 Digilift Africa. Uburenganzira bwose burarinzwe."
+  }
+}

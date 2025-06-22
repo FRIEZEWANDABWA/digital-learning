@@ -1,0 +1,49 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À Propos des Centres",
+    "countries": "Pays",
+    "curriculum": "Programme",
+    "stories": "Histoires",
+    "data": "Données pour l'Afrique",
+    "getInvolved": "S'Impliquer",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Autonomiser l'Afrique par l'Alphabétisation Numérique",
+    "subtitle": "Centres Numériques Mobiles Alimentés par l'Énergie Solaire Transformant les Communautés",
+    "description": "Apporter des compétences numériques, l'accès à la santé et des informations vérifiées aux communautés mal desservies à travers l'Afrique grâce à des centres d'apprentissage innovants basés sur des conteneurs.",
+    "cta": "Explorez Notre Impact",
+    "learnMore": "En Savoir Plus"
+  },
+  "stats": {
+    "hubs": "Centres Actifs",
+    "students": "Étudiants Formés",
+    "countries": "Pays Atteints",
+    "communities": "Communautés Servies"
+  },
+  "about": {
+    "title": "Centres Numériques Mobiles Révolutionnaires",
+    "subtitle": "Conteneurs d'expédition alimentés par l'énergie solaire transformés en salles de classe numériques",
+    "description": "Notre approche innovante apporte une technologie de pointe aux communautés éloignées grâce à des environnements d'apprentissage mobiles, durables et adaptés culturellement."
+  },
+  "countries": {
+    "title": "Notre Présence à Travers l'Afrique",
+    "subtitle": "Programmes localisés adaptés aux besoins de chaque communauté"
+  },
+  "curriculum": {
+    "title": "Formation Complète aux Compétences Numériques",
+    "subtitle": "De l'alphabétisation de base aux compétences techniques avancées"
+  },
+  "stories": {
+    "title": "Transformer des Vies, Une Histoire à la Fois",
+    "subtitle": "Impact réel de vraies personnes"
+  },
+  "footer": {
+    "description": "Autonomiser les communautés africaines grâce à l'éducation numérique innovante et aux solutions technologiques durables.",
+    "quickLinks": "Liens Rapides",
+    "contact": "Informations de Contact",
+    "social": "Suivez-Nous",
+    "copyright": "© 2024 Digilift Africa. Tous droits réservés."
+  }
+}

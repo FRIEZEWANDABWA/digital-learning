@@ -1,0 +1,49 @@
+{
+  "nav": {
+    "home": "Ikhaya",
+    "about": "Mayelana Nezindawo",
+    "countries": "Amazwe",
+    "curriculum": "Isifundo",
+    "stories": "Izindaba",
+    "data": "Idatha ye-Afrika",
+    "getInvolved": "Zibandakanye",
+    "contact": "Xhumana Nathi"
+  },
+  "hero": {
+    "title": "Ukuqinisa i-Afrika Ngokufunda Kwedijithali",
+    "subtitle": "Izindawo Zedijithali Ezihambayo Ezisebenza Ngelanga Eziguqula Imiphakathi",
+    "description": "Ukuletha amakhono edijithali, ukufinyelela kwezempilo, nolwazi oluqinisekisiwe emiphakathini engenawo amasevisi anele kulo lonke elase-Afrika ngezindawo zokufunda ezintsha.",
+    "cta": "Hlola Umthelela Wethu",
+    "learnMore": "Funda Kabanzi"
+  },
+  "stats": {
+    "hubs": "Izindawo Ezisebenzayo",
+    "students": "Abafundi Abaqeqeshiwe",
+    "countries": "Amazwe Afinyelelwe",
+    "communities": "Imiphakathi Esizwe"
+  },
+  "about": {
+    "title": "Izindawo Zedijithali Ezihambayo Ezintsha",
+    "subtitle": "Iziqukathi zomkhumbi ezisebenza ngelanga eziguqulwe zaba amakilasi edijithali",
+    "description": "Indlela yethu entsha iletha ubuchwepheshe besimanje emiphakathini ekude ngezindawo zokufunda ezihambayo, ezisimeme, nezivumelana namasiko."
+  },
+  "countries": {
+    "title": "Ukuba Kwethu Kulo Lonke Elase-Afrika",
+    "subtitle": "Izinhlelo ezilungiselelwe izidingo zomphakathi ngamunye"
+  },
+  "curriculum": {
+    "title": "Ukuqeqeshwa Kwamakhono Edijithali Okuphelele",
+    "subtitle": "Kusukela ekufundeni nasekubhaleni okuyisisekelo kuya emakhonweni obuchwepheshe aphezulu"
+  },
+  "stories": {
+    "title": "Ukuguqula Ukuphila, Indaba Eyodwa Ngesikhathi",
+    "subtitle": "Umthelela wangempela kubantu bangempela"
+  },
+  "footer": {
+    "description": "Ukuqinisa imiphakathi yase-Afrika ngemfundo yedijithali entsha nezixazululo zobuchwepheshe obusimeme.",
+    "quickLinks": "Izixhumanisi Ezisheshayo",
+    "contact": "Ulwazi Lokuxhumana",
+    "social": "Silandele",
+    "copyright": "© 2024 Digilift Africa. Wonke amalungelo agodliwe."
+  }
+}

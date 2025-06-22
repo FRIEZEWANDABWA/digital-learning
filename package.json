@@ -1,0 +1,40 @@
+{
+  "name": "digilift-africa",
+  "version": "1.0.0",
+  "description": "Digital Empowerment Hubs - Pan-African digital literacy platform",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "http-server dist -p 3000"
+  },
+  "keywords": [
+    "digital-literacy",
+    "africa",
+    "education",
+    "community",
+    "empowerment"
+  ],
+  "author": "Digilift Africa Team",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.0",
+    "react-i18next": "^12.1.4",
+    "i18next": "^22.4.10",
+    "framer-motion": "^9.0.0",
+    "lucide-react": "^0.263.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7",
+    "vite": "^4.1.0",
+    "http-server": "^14.1.1"
+  }
+}

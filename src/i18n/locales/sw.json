@@ -1,0 +1,49 @@
+{
+  "nav": {
+    "home": "Nyumbani",
+    "about": "Kuhusu Vituo",
+    "countries": "Nchi",
+    "curriculum": "Mtaala",
+    "stories": "Hadithi",
+    "data": "Data kwa Afrika",
+    "getInvolved": "Jiunge Nasi",
+    "contact": "Wasiliana"
+  },
+  "hero": {
+    "title": "Kuimarisha Afrika Kupitia Ujuzi wa Kidijitali",
+    "subtitle": "Vituo vya Kidijitali vya Jua vinavyohamisha Jamii",
+    "description": "Kuleta ujuzi wa kidijitali, upatikanaji wa afya, na habari zilizothibitishwa kwa jamii zisizopata huduma za kutosha Afrika kote kupitia vituo vya kujifunzia vya kisasa.",
+    "cta": "Chunguza Athari Yetu",
+    "learnMore": "Jifunze Zaidi"
+  },
+  "stats": {
+    "hubs": "Vituo Hai",
+    "students": "Wanafunzi Waliofunzwa",
+    "countries": "Nchi Zilizofikwa",
+    "communities": "Jamii Zilizotumikiwa"
+  },
+  "about": {
+    "title": "Vituo vya Kidijitali vya Mapinduzi",
+    "subtitle": "Kontena za jua zilizobadilishwa kuwa madarasa ya kidijitali",
+    "description": "Mbinu yetu ya ubunifu inaleta teknolojia ya kisasa kwa jamii za mbali kupitia mazingira ya kujifunzia yanayohamishika, endelevu, na yanayolingana na utamaduni."
+  },
+  "countries": {
+    "title": "Uwepo Wetu Afrika Kote",
+    "subtitle": "Mipango iliyoboreshwa kwa mahitaji ya kila jamii"
+  },
+  "curriculum": {
+    "title": "Mafunzo Kamili ya Ujuzi wa Kidijitali",
+    "subtitle": "Kutoka ujuzi wa msingi hadi ujuzi wa kiteknolojia wa juu"
+  },
+  "stories": {
+    "title": "Kubadilisha Maisha, Hadithi Moja kwa Wakati",
+    "subtitle": "Athari halisi kutoka kwa watu halisi"
+  },
+  "footer": {
+    "description": "Kuimarisha jamii za Afrika kupitia elimu ya kidijitali ya ubunifu na suluhisho za teknolojia endelevu.",
+    "quickLinks": "Viungo vya Haraka",
+    "contact": "Maelezo ya Mawasiliano",
+    "social": "Tufuate",
+    "copyright": "© 2024 Digilift Africa. Haki zote zimehifadhiwa."
+  }
+}

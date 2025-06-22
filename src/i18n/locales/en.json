@@ -1,0 +1,49 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Hubs",
+    "countries": "Countries",
+    "curriculum": "Curriculum",
+    "stories": "Stories",
+    "data": "Data for Africa",
+    "getInvolved": "Get Involved",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Empowering Africa Through Digital Literacy",
+    "subtitle": "Mobile Solar-Powered Digital Hubs Transforming Communities",
+    "description": "Bringing digital skills, health access, and verified information to underserved communities across Africa through innovative container-based learning centers.",
+    "cta": "Explore Our Impact",
+    "learnMore": "Learn More"
+  },
+  "stats": {
+    "hubs": "Active Hubs",
+    "students": "Students Trained",
+    "countries": "Countries Reached",
+    "communities": "Communities Served"
+  },
+  "about": {
+    "title": "Revolutionary Mobile Digital Hubs",
+    "subtitle": "Solar-powered shipping containers transformed into digital classrooms",
+    "description": "Our innovative approach brings cutting-edge technology to remote communities through mobile, sustainable, and culturally-adapted learning environments."
+  },
+  "countries": {
+    "title": "Our Presence Across Africa",
+    "subtitle": "Localized programs tailored to each community's needs"
+  },
+  "curriculum": {
+    "title": "Comprehensive Digital Skills Training",
+    "subtitle": "From basic literacy to advanced technical skills"
+  },
+  "stories": {
+    "title": "Transforming Lives, One Story at a Time",
+    "subtitle": "Real impact from real people"
+  },
+  "footer": {
+    "description": "Empowering African communities through innovative digital education and sustainable technology solutions.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact Info",
+    "social": "Follow Us",
+    "copyright": "© 2024 Digilift Africa. All rights reserved."
+  }
+}
