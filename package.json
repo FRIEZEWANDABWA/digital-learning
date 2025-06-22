@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "serve": "http-server dist -p 3000"
   },
-  "homepage": "https://friezewandabwa.github.io/learningcentres",
+  "homepage": "https://friezewandabwa.github.io/digital-learning",
   "keywords": [
     "digital-literacy",
     "africa",
