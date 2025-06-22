@@ -1,0 +1,18 @@
+title: Digilift Africa
+description: Digital Empowerment Hubs - Pan-African digital literacy platform
+baseurl: "/learningcentres"
+url: "https://friezewandabwa.github.io"
+
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+exclude:
+  - node_modules
+  - package.json
+  - package-lock.json
+  - README.md
