@@ -7,30 +7,86 @@
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
-        .hero { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 100px 20px; text-align: center; min-height: 100vh; display: flex; align-items: center; justify-content: center; flex-direction: column; }
+        
+        /* Navigation */
+        .navbar { position: fixed; top: 0; left: 0; right: 0; background: rgba(255,255,255,0.95); backdrop-filter: blur(10px); z-index: 1000; padding: 1rem 0; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .nav-container { max-width: 1200px; margin: 0 auto; padding: 0 20px; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 1.5rem; font-weight: bold; color: #667eea; }
+        .nav-menu { display: flex; list-style: none; gap: 2rem; }
+        .nav-link { text-decoration: none; color: #333; font-weight: 500; transition: color 0.3s; }
+        .nav-link:hover { color: #667eea; }
+        .mobile-menu { display: none; flex-direction: column; cursor: pointer; }
+        .mobile-menu span { width: 25px; height: 3px; background: #333; margin: 3px 0; transition: 0.3s; }
+        
+        /* Mobile Navigation */
+        @media (max-width: 768px) {
+            .nav-menu { position: fixed; top: 70px; left: -100%; width: 100%; height: calc(100vh - 70px); background: white; flex-direction: column; justify-content: start; align-items: center; padding-top: 2rem; transition: left 0.3s; }
+            .nav-menu.active { left: 0; }
+            .mobile-menu { display: flex; }
+            .nav-link { font-size: 1.2rem; padding: 1rem; }
+        }
+        
+        /* Hero Section */
+        .hero { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 120px 20px 80px; text-align: center; min-height: 100vh; display: flex; align-items: center; justify-content: center; flex-direction: column; }
         .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
-        h1 { font-size: 3rem; margin-bottom: 1rem; }
-        .subtitle { font-size: 1.5rem; margin-bottom: 2rem; opacity: 0.9; }
-        .btn { background: #ff6b6b; color: white; padding: 15px 30px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block; margin: 10px; }
+        h1 { font-size: clamp(2rem, 5vw, 3rem); margin-bottom: 1rem; }
+        .subtitle { font-size: clamp(1rem, 3vw, 1.5rem); margin-bottom: 2rem; opacity: 0.9; }
+        .btn { background: #ff6b6b; color: white; padding: 15px 30px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block; margin: 10px; transition: transform 0.3s; }
+        .btn:hover { transform: translateY(-2px); }
+        
+        /* Features */
         .features { padding: 80px 20px; background: #f8f9fa; }
-        .feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 50px; }
-        .feature { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); text-align: center; }
-        .feature h3 { color: #667eea; margin-bottom: 15px; }
+        .feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-top: 50px; }
+        .feature { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); text-align: center; transition: transform 0.3s; }
+        .feature:hover { transform: translateY(-5px); }
+        .feature h3 { color: #667eea; margin-bottom: 15px; font-size: 1.3rem; }
+        
+        /* Stats */
         .stats { padding: 60px 20px; background: #667eea; color: white; text-align: center; }
-        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 30px; margin-top: 30px; }
-        .stat h3 { font-size: 2.5rem; margin-bottom: 10px; }
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 30px; margin-top: 30px; }
+        .stat h3 { font-size: clamp(1.5rem, 4vw, 2.5rem); margin-bottom: 10px; }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero { padding: 100px 20px 60px; }
+            .features { padding: 60px 20px; }
+            .stats { padding: 40px 20px; }
+            .feature-grid { grid-template-columns: 1fr; gap: 20px; }
+        }
     </style>
 </head>
 <body>
-    <section class="hero">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">🌍 Digilift Africa</div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About Hubs</a></li>
+                <li><a href="#designs" class="nav-link">Designs</a></li>
+                <li><a href="#curriculum" class="nav-link">Curriculum</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="mobile-menu" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
         <div class="container">
             <h1>Digilift Africa</h1>
             <p class="subtitle">Digital Empowerment Hubs Transforming Communities</p>
             <p>Solar-powered mobile learning centers bringing digital literacy to rural Africa</p>
             <a href="#features" class="btn">Explore Our Impact</a>
+            <a href="#contact" class="btn" style="background: transparent; border: 2px solid white;">Get Started</a>
         </div>
     </section>
 
+    <!-- Stats Section -->
     <section class="stats">
         <div class="container">
             <h2>Our Impact Across Africa</h2>
@@ -55,6 +111,7 @@
         </div>
     </section>
 
+    <!-- Features Section -->
     <section class="features" id="features">
         <div class="container">
             <h2 style="text-align: center; margin-bottom: 20px;">Mobile Container Learning Hubs</h2>
@@ -64,32 +121,119 @@
                 <div class="feature">
                     <h3>🚚 Mobile Container Hubs</h3>
                     <p>Solar-powered shipping containers converted into digital classrooms, bringing technology directly to remote communities.</p>
+                    <ul style="text-align: left; margin-top: 15px; color: #666;">
+                        <li>✅ Fully mobile and self-contained</li>
+                        <li>✅ Solar-powered with battery backup</li>
+                        <li>✅ Satellite internet connectivity</li>
+                        <li>✅ 20-30 student capacity</li>
+                    </ul>
                 </div>
                 
                 <div class="feature">
                     <h3>🏫 Partnered Learning Centers</h3>
                     <p>Strategic partnerships with universities, schools, and technical institutions to scale digital education.</p>
+                    <ul style="text-align: left; margin-top: 15px; color: #666;">
+                        <li>✅ Existing institutional infrastructure</li>
+                        <li>✅ Shared resources and facilities</li>
+                        <li>✅ High-speed internet and power</li>
+                        <li>✅ 50-200+ student capacity</li>
+                    </ul>
                 </div>
                 
                 <div class="feature">
                     <h3>📚 Comprehensive Curriculum</h3>
                     <p>10 beginner-friendly courses designed for rural communities with immediate income opportunities.</p>
+                    <ul style="text-align: left; margin-top: 15px; color: #666;">
+                        <li>✅ Digital Literacy & Computer Skills</li>
+                        <li>✅ Online Earning & Freelancing</li>
+                        <li>✅ E-Commerce & Mobile Money</li>
+                        <li>✅ Smart Farming & Health Education</li>
+                    </ul>
                 </div>
                 
                 <div class="feature">
                     <h3>🎨 Container Designs Available</h3>
                     <p>6 different container configurations optimized for various community needs and deployment scenarios.</p>
+                    <ul style="text-align: left; margin-top: 15px; color: #666;">
+                        <li>✅ Exterior solar setups</li>
+                        <li>✅ Interior learning environments</li>
+                        <li>✅ Mobile and residential options</li>
+                        <li>✅ Quick setup (1-4 weeks)</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <section style="padding: 60px 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-align: center;">
+    <!-- About Section -->
+    <section style="padding: 80px 20px; background: white;" id="about">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 40px;">About Our Digital Hubs</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px; align-items: center;">
+                <div>
+                    <h3 style="color: #667eea; margin-bottom: 20px;">Revolutionary Approach</h3>
+                    <p style="margin-bottom: 20px;">We transform shipping containers into fully-equipped digital learning centers, bringing world-class technology education to the most remote corners of Africa.</p>
+                    <p style="margin-bottom: 20px;">Our dual approach combines mobile container hubs for rural flexibility with institutional partnerships for urban scale.</p>
+                    <a href="#contact" class="btn">Learn More</a>
+                </div>
+                <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); height: 300px; border-radius: 15px; display: flex; align-items: center; justify-content: center; color: white; text-align: center;">
+                    <div>
+                        <div style="font-size: 4rem; margin-bottom: 1rem;">📦</div>
+                        <h3>Container Hub</h3>
+                        <p>Mobile Learning Center</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section style="padding: 60px 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-align: center;" id="contact">
         <div class="container">
             <h2>Ready to Transform Your Community?</h2>
             <p style="margin: 20px 0; font-size: 1.2rem;">Join our network of Digital Empowerment Hubs across Africa</p>
-            <a href="mailto:info@digiliftafrica.org" class="btn">Get Started Today</a>
+            <div style="margin-top: 30px;">
+                <a href="mailto:info@digiliftafrica.org" class="btn">Get Started Today</a>
+                <a href="tel:+254700000000" class="btn" style="background: transparent; border: 2px solid white;">Call Us</a>
+            </div>
+            <div style="margin-top: 40px; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; text-align: center;">
+                <div>
+                    <h4>📧 Email</h4>
+                    <p>info@digiliftafrica.org</p>
+                </div>
+                <div>
+                    <h4>📱 Phone</h4>
+                    <p>+254 700 000 000</p>
+                </div>
+                <div>
+                    <h4>📍 Location</h4>
+                    <p>Nairobi, Kenya</p>
+                </div>
+            </div>
         </div>
     </section>
+
+    <script>
+        function toggleMenu() {
+            const navMenu = document.getElementById('nav-menu');
+            navMenu.classList.toggle('active');
+        }
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+                // Close mobile menu after clicking
+                document.getElementById('nav-menu').classList.remove('active');
+            });
+        });
+    </script>
 </body>
 </html>
